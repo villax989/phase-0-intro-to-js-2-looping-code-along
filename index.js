@@ -25,3 +25,16 @@ function wrapGifts(gifts) {
 }
 
 wrapGifts(gifts)
+
+let countup = 0;
+while (countup < 10) {
+  console.log(countup++);
+}
+
+function countDown (number){
+while (number >-1){
+console.log(number--)
+
+}
+
+}
